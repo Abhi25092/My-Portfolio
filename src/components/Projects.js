@@ -22,7 +22,7 @@ function Projects() {
         {
             title: 'Calculator with basic calculations',
             image: project2,
-            livelink: 'https://github.com/Abhi25092/My-Projects/tree/main/Calculator%20App',
+            livelink: 'https://abhi25092.github.io/Project-6/',
             description: 'A responsive and interactive calculator web app built using HTML, CSS, and JavaScript. It supports basic arithmetic operations and includes a dark mode toggle for enhanced user experience.',
             caseStudy: 
             <ul>
@@ -35,7 +35,7 @@ function Projects() {
         {
             title: 'A Number guessing game',
             image: project3,
-            livelink: 'https://github.com/Abhi25092/My-Projects/tree/main/Number%20Guessing%20Game',
+            livelink: 'https://abhi25092.github.io/Game-1/',
             description: 'A responsive and visually appealing number guessing game built using HTML, CSS, and JavaScipt. Includes a dark mode UI, limited attempts, real-time feedback, and reset functionality.',
             caseStudy:
             <ul>
