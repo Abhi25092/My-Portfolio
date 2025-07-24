@@ -24,8 +24,8 @@ function Contact() {
             </p>
 
             <div className='contact-links'>
-                <a href="mailto:abhishekmgs@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <FaEnvelope /> abhishekmgs@gmail.com
+                <a href="mailto:abhishekmgs4318@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <FaEnvelope /> abhishekmgs4318@gmail.com
                 </a>
                 <a href="https://linkedin.com/in/abhishek-yadav-b86396250" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin /> LinkedIn Profile
