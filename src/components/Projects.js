@@ -62,7 +62,7 @@ function Projects() {
                             <p>{project.description}</p>
                             <p className='case-study'><strong>Case Study: </strong>{project.caseStudy}</p>
                             <a href={project.livelink} target="_blank" rel="noopener noreferrer" className='project-link'>
-                                Github Code --&gt;
+                                Live Preview --&gt;
                             </a>
                         </div>
                     </div>
