@@ -1,42 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Black+Ops+One&family=Fjalla+One&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Black+Ops+One&family=Fjalla+One&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
 
-.navbar{
-    background-color: #ffffff;
-    padding: 15px 30px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    top: 0;
-    z-index: 1000;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-.navbar h1{
+.logo {
   font-family: "Agbalumo", system-ui;
-  font-weight: 400;
+  font-weight: bold;
+  font-size: 2rem;
   font-style: normal;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: 0.4s;
+}
 
-.navbar ul{
-    list-style: none;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500px;
+  cursor: pointer;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
     display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-}
-
-.navbar li{
-    font-weight: 500px;
-    cursor: pointer;
-}
-
-.navbar a{
-    color: #007bff;
-    text-decoration: none;
-}
-
-.navbar a:hover{
-    text-decoration: underline;
+  }
+  .nav-links {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(-120%);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .nav-links.active {
+    transform: translateY(0);
+  }
 }
