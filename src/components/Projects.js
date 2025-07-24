@@ -9,7 +9,7 @@ function Projects() {
         {
             title: 'Basic Age Calculator',
             image: project1,
-            livelink: 'https://github.com/Abhi25092/My-Projects/tree/main/Age%20Calculator',
+            livelink: 'https://abhi25092.github.io/Project-1/',
             description: 'A clean, responsive web app that calculates your exact age in years, months, and days based on your date of birth. It includes a light/dark mode toggle.',
             caseStudy: 
             <ul type="1">
