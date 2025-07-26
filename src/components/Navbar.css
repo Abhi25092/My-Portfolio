@@ -69,6 +69,6 @@
   }
   .nav-links.active {
     transform: translateY(0);
-    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-in;
   }
 }
