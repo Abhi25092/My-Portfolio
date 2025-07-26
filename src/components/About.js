@@ -9,7 +9,8 @@ function About() {
             <p className='about-text'>
                 I'm a self-taught frontend developer with a strong interest in building clean and interactive web experiences.
                 <br />
-                Though I'm just starting out professionaly, I've already worked on several personal projects that helped me apply and strengthen my skills in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong>.
+                Though I'm just starting out professionaly, I've already worked on several personal projects that helped me apply and strengthen my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
+                /*, and <strong>React</strong>.*/
                 <br /><br />
                 I enjoy learning new technologies, solving problems through code, and constantly improving my craft. I believe that consistency and curiosity are the keys to becoming a great developer.
             </p>
@@ -20,11 +21,11 @@ function About() {
 
             <div className='about-extra'>
                 <p>
-                    <strong>Skills: </strong>HTML, CSS, JavaScript, React, Github, VS Code
+                    <strong>Skills: </strong>HTML, CSS, JavaScript, React.
                 </p>
-                <p>
-                    <strong>Interests: </strong>Web Animations, Open Source, Creative coding
-                </p>
+                // <p>
+                //     <strong>Interests: </strong>Web Animations, Open Source, Creative coding
+                // </p>
                 <p>
                     <strong>Career Goals: </strong>To become a skilled frontend Developer and contribute to meaningful projects that make a difference.
                 </p>
