@@ -10,7 +10,7 @@ function About() {
                 I'm a self-taught frontend developer with a strong interest in building clean and interactive web experiences.
                 <br />
                 Though I'm just starting out professionaly, I've already worked on several personal projects that helped me apply and strengthen my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
-                /*, and <strong>React</strong>.*/
+                // , and <strong>React</strong>.
                 <br /><br />
                 I enjoy learning new technologies, solving problems through code, and constantly improving my craft. I believe that consistency and curiosity are the keys to becoming a great developer.
             </p>
