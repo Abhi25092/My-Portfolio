@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Black+Ops+One&family=Fjalla+One&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
+
+/*Base Styles*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-family: "Agbalumo", system-ui;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+/*Hamburger Icon*/
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+
+/*Navigation Links*/
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500px;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+  
+  .nav-links {
+    position: absolute;
+    top: 70%;
+    right: 6%;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(-200%);
+    transition: transform 0s ease-out;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* height: calc(100vh - 60px); */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .nav-links.active {
+    transform: translateY(0);
+    transition: transform 0.5s ease-in;
+  }
+}
